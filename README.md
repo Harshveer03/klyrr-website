@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# KLYRR Website
 
-## Project info
+> **Clarity, Precision, and Revenue.**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The official website for KLYRR, showcasing our three AI-driven platforms: 1SYX, VoiShift, and Latenti.
 
-## How can I edit this code?
+## 🌐 Live Website
 
-There are several ways of editing your application.
+Visit us at: **[www.klyrr.com](https://www.klyrr.com)**
 
-**Use Lovable**
+## 🚀 Our Platforms
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **[1SYX](https://1syxai.com)** - 1 System For Your X-Factor
+- **[VoiShift](https://voishiftai.com)** - Voice Intelligence, Redefined
+- **[Latenti](https://latenti.com)** - Invisible Cultural Infrastructure via GiftOps _(Coming Soon)_
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technology Stack
 
-**Use your preferred IDE**
+This website is built with modern web technologies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React 18** - UI framework
+- **TypeScript** - Type safety and developer experience
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful, accessible component library
+- **Framer Motion** - Smooth animations and transitions
+- **React Router** - Client-side routing
+- **TanStack Query** - Server state management
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏃‍♂️ Quick Start
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js 18+ and npm (recommended: install via [nvm](https://github.com/nvm-sh/nvm))
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Development Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repository
+git clone <repository-url>
+cd klyrr-website
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📝 Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run build:dev    # Build in development mode
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+npm run test         # Run tests once
+npm run test:watch   # Run tests in watch mode
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   └── NavLink.tsx     # Custom navigation component
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── pages/              # Page components
+│   ├── Index.tsx       # Landing page
+│   └── NotFound.tsx    # 404 page
+├── test/               # Test files and setup
+├── App.tsx             # Main app component
+├── main.tsx            # App entry point
+└── index.css           # Global styles
+```
 
-This project is built with:
+## 🎨 Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The website uses a carefully crafted design system with:
 
-## How can I deploy this project?
+- **Typography**: Space Grotesk (headings) + Inter (body)
+- **Colors**: Slate-based palette with orange accents
+- **Animations**: Smooth, spring-based transitions
+- **Responsive**: Mobile-first design approach
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🔧 Development Guidelines
 
-## Can I connect a custom domain to my Lovable project?
+### Code Style
 
-Yes, you can!
+- TypeScript with relaxed settings for rapid development
+- ESLint for code quality
+- Prettier formatting (configured in editor)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Component Architecture
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Functional components with hooks
+- shadcn/ui for consistent UI patterns
+- Custom components in `/components`
+- Page-level components in `/pages`
+
+### Styling
+
+- Tailwind CSS utility classes
+- CSS custom properties for theming
+- Responsive design with mobile-first approach
+
+## 🚀 Deployment
+
+The website is optimized for modern hosting platforms:
+
+- Static site generation ready
+- SEO optimized with meta tags and structured data
+- Performance optimized with Vite bundling
+- Responsive images and lazy loading
+
+## 📊 SEO & Analytics
+
+- Comprehensive meta tags and Open Graph data
+- JSON-LD structured data for search engines
+- Sitemap and robots.txt included
+- Performance optimized for Core Web Vitals
+
+## 🤝 Contributing
+
+1. Create a feature branch from `main`
+2. Make your changes following the coding guidelines
+3. Test your changes locally
+4. Submit a pull request with a clear description
+
+## 📄 License
+
+© 2026 KLYRR. All rights reserved.

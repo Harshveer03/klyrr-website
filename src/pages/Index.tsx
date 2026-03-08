@@ -33,7 +33,7 @@ const products = [
     description:
       "Most brands chase loyalty with words. Latenti earns it with moments that land so perfectly they change how people feel. We build culture into repeatable rituals, not ad hoc gestures, with end-to-end execution built in. Employees feel seen, belong fast, and advocate. Customers come back warmer. Partners advocate harder. Event/Booth attendees remember you. People start wearing your brand like a badge, not a contract.",
     logo: "/latenti-logo.png",
-    url: "https://latenti.com",
+    url: "/",
     accent: "from-orange-500/10 via-amber-500/5 to-transparent",
     border: "group-hover:border-orange-500/20",
     shadow: "group-hover:shadow-[0_8px_40px_-12px_rgba(249,115,22,0.15)]",
